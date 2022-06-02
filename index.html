@@ -1,611 +1,700 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Inji Beybudova">
     <title>Melodora</title>
     <link rel="stylesheet" href="owl.carousel.min.css">
     <link rel="stylesheet" href="owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
-    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
 
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
 </head>
+
 <body>
-  <a id="button"></a>
-  
-  <header>
-  
+    <a id="button"></a>
+    <header>
+        <div class="container">
+            <div class="primary-header">
 
-      <div class="header-primary">
-        <div class="primary-left">
-          
-         <a href="tel:+994 (70) 5555777" class="tel-number"><i class='fa fa-phone faa-ring animated'></i> +994 (70) 5555777</a>
-        </div>
+                <div class="primary-left">
 
-        <div class="primary-right">
+                    <a href="tel:+994 (70) 5555777" class="tel-number"><i class='fa fa-phone faa-ring animated'></i>
+                        +994 (70) 5555777</a>
+                </div>
 
-<!--lang-->             <div class="dropdown lang">
-            <a class=" dropdown-toggle dropdown-toggle-split lang-link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
-              AZ
-            </a>
-            <ul class="dropdown-menu lang-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item lang-item" href="#">RU</a></li>
-              <div class="dropdown-divider lang-divider"></div>
-              <li><a class="dropdown-item lang-item" href="#">EN</a></li>
-             
-            </ul>
-          </div>
+                <div class="primary-right">
 
-<!--social-media-->             <div class="social-media">
-            <i class="fa-brands fa-facebook-f social-media-icons"></i>
-            <i class="fa-brands fa-linkedin-in social-media-icons"></i>
-            <i class="fa-brands fa-twitter social-media-icons"></i>
-            <i class="fa-brands fa-instagram social-media-icons"></i>
-            <i class="fa-brands fa-youtube social-media-icons"></i>
 
-        
+                    <div class="dropdown lang">
+                        <a class=" dropdown-toggle dropdown-toggle-split lang-link" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                            AZ
+                        </a>
+                        <ul class="dropdown-menu lang-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item lang-item" href="#">RU</a></li>
+                            <div class="dropdown-divider lang-divider"></div>
+                            <li><a class="dropdown-item lang-item" href="#">EN</a></li>
+
+                        </ul>
+                    </div>
+
+
+
+
+                    <!--social-media-->
+                    <div class="social-media">
+                        <a href=""><i class="fa-brands fa-facebook-f social-media-icons"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in social-media-icons"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter social-media-icons"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram social-media-icons"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube social-media-icons"></i></a>
+                        <button class=" btn-searchtop d-lg-none d-md-inline-block d-sm-inline-block d-inline-block" onclick="openSearch()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="19.996" viewBox="0 0 20 19.996">
+                            <path id="Path_13" data-name="Path 13" d="M-614.571,20.739a3.4,3.4,0,0,1-.455-.321q-2.463-2.41-4.915-4.83c-.041-.04-.084-.079-.135-.126-.056.039-.111.072-.161.111a8.222,8.222,0,0,1-3.644,1.6,8.29,8.29,0,0,1-5.686-.978,8.22,8.22,0,0,1-3.808-4.618,7.474,7.474,0,0,1-.374-1.849,1.015,1.015,0,0,0-.034-.149V8.481c.05-.333.091-.668.153-1a7.846,7.846,0,0,1,1.43-3.275,8.185,8.185,0,0,1,4.737-3.19,8.25,8.25,0,0,1,7.447,1.639,7.905,7.905,0,0,1,3.012,5.536,7.934,7.934,0,0,1-1.385,5.417c-.226.331-.483.642-.76,1.007a1.072,1.072,0,0,1,.168.114q2.464,2.42,4.925,4.844c.287.283.36.587.164.85a1.879,1.879,0,0,1-.4.314Zm-10.8-18.714a6.849,6.849,0,0,0-2.154.329,6.969,6.969,0,0,0-4,3.172,6.7,6.7,0,0,0-.768,5.092,6.773,6.773,0,0,0,2.98,4.23A7.016,7.016,0,0,0-624.3,15.94a6.873,6.873,0,0,0,3.977-1.985,6.779,6.779,0,0,0,2.051-5.288A6.552,6.552,0,0,0-619.488,5.1,7.074,7.074,0,0,0-625.368,2.026Z" transform="translate(633.783 -0.743)" fill="#fff"></path>
+                            </svg></button>
+                    </div>
+
+                </div>
+
             </div>
-          
-</div>
+            <div class="secondary-header">
+                <div class="wrapper container wrapper-logo">
+                    <div class="main-logo">
+                        <a href="index.html" class="logo"> <img src="images/logo.png" alt=""></a>
+
+                    </div>
+
+                    <!--main-menu-->
+                    <a class="hamburger  d-lg-none d-md-inline-block d-sm-inline-block" data-bs-toggle="offcanvas"
+                        href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+
+                    <nav class="d-lg-inline-block d-md-none d-sm-none d-none">
+                        <ul>
+                            <li><a href="about.html" class="underline-hover" target="_blank">Biz kimik?</a>
+                            </li>
+                            <li> <a href="garden.html" class="underline-hover" target="_blank">Bağlarımız</a></li>
+                            <li> <a href="products.html" class="underline-hover" target="_blank">Məhsullarımız</a></li>
+                            <li><a href="service.html" class="underline-hover" target="_blank">Xidmətlərimiz</a></li>
+                            <li><a href="social-responsibility.html" class="underline-hover" target="_blank">Sosial Məsuliyyət</a></li>
+                            <li> <a href="contact.html" class="underline-hover" target="_blank">Əlaqə</a></li>
+
+
+                            <button class=" btn-search" onclick="openSearch()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="19.996" viewBox="0 0 20 19.996">
+                                <path id="Path_13" data-name="Path 13" d="M-614.571,20.739a3.4,3.4,0,0,1-.455-.321q-2.463-2.41-4.915-4.83c-.041-.04-.084-.079-.135-.126-.056.039-.111.072-.161.111a8.222,8.222,0,0,1-3.644,1.6,8.29,8.29,0,0,1-5.686-.978,8.22,8.22,0,0,1-3.808-4.618,7.474,7.474,0,0,1-.374-1.849,1.015,1.015,0,0,0-.034-.149V8.481c.05-.333.091-.668.153-1a7.846,7.846,0,0,1,1.43-3.275,8.185,8.185,0,0,1,4.737-3.19,8.25,8.25,0,0,1,7.447,1.639,7.905,7.905,0,0,1,3.012,5.536,7.934,7.934,0,0,1-1.385,5.417c-.226.331-.483.642-.76,1.007a1.072,1.072,0,0,1,.168.114q2.464,2.42,4.925,4.844c.287.283.36.587.164.85a1.879,1.879,0,0,1-.4.314Zm-10.8-18.714a6.849,6.849,0,0,0-2.154.329,6.969,6.969,0,0,0-4,3.172,6.7,6.7,0,0,0-.768,5.092,6.773,6.773,0,0,0,2.98,4.23A7.016,7.016,0,0,0-624.3,15.94a6.873,6.873,0,0,0,3.977-1.985,6.779,6.779,0,0,0,2.051-5.288A6.552,6.552,0,0,0-619.488,5.1,7.074,7.074,0,0,0-625.368,2.026Z" transform="translate(633.783 -0.743)" fill="#fff"></path>
+                                </svg></button>
+
+                            <div id="myOverlay" class="overlay">
+                                <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><i class="fa-solid fa-xmark"></i></span>
+                                <div class="overlay-content">
+                                    <form action="/action_page.php">
+                                        <input type="text" name="search" id="" placeholder="Axtarış" >
+                                        <button type="submit" class="btn-modal" value="yes" id="btn-modal">Axtar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
+    </header>
+
+    <!--Offcanvas-->
+    <div class="offcanvas offcanvas-start offcanvas-top" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header ">
+            <a href="index.html" class="logo"> <img src="images/offcanvas-logo.svg" alt=""></a>
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-
-    </div>
-
- 
-    <div class="header-secondary" id="header-secondary">
-    <div class="wrapper">
-      <div class="main-logo">
-     <a href="" class="logo"> <img src="images/logo.png" alt=""></a>
-    </div>
-
-      <nav>
-        <ul>
-      <li><a href="" class="underline-hover">Biz kimik?</a> </li>
-      <li> <a href="" class="underline-hover">Bağlarımız</a></li>
-      <li> <a href="" class="underline-hover">Məhsullarımız</a></li>
-      <li><a href="" class="underline-hover">Xidmətlərimiz</a></li>
-      <li><a href="" class="underline-hover">Sosial Məsuliyyət</a></li>
-      <li> <a href="" class="underline-hover">Əlaqə</a></li>    
-     
-       <button class=" btn btn-search" onclick="openSearch()"><img src="images/seacrh_icon.svg" alt=""></button>
-       
-       <div id="myOverlay" class="overlay">
-        <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><i class="fa-solid fa-xmark"></i></span>
-        <div class="overlay-content">
-          <form action="/action_page.php">         
-            <input type="text" name="search" id="" placeholder="Axtarış" >
-            <button type="submit" class="btn-modal" value="yes" id="btn-modal">Axtar</button>
-          </form>
+        <div class="offcanvas-body">
+            <div class="offcanvas-list">
+                <ul>
+                    <li><a href="about.html" class="underline-hover1" target="_blank">Biz kimik?</a> </li>
+                    <li> <a href="garden.html" class="underline-hover1" target="_blank">Bağlarımız</a></li>
+                    <li> <a href="products.html" class="underline-hover1" target="_blank">Məhsullarımız</a></li>
+                    <li><a href="service.html" class="underline-hover1" target="_blank">Xidmətlərimiz</a></li>
+                    <li><a href="social-responsibility.html" class="underline-hover1" target="_blank">Sosial Məsuliyyət</a></li>
+                    <li> <a href="contact.html" class="underline-hover1" target="_blank">Əlaqə</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      
-   
-      
+        <div class="offcanvas-footer">
 
-      </ul>  
-      </nav>
-
-     
-    </div>
-  </div>
- 
-  </header>
-
-  <section class="banner"></section>
-
-
-  <!--top bottom slides-->
-
-
-  <div class="home-slider owl-carousel owl-theme">
-    <div class="home-slider-item1 item ">
-
-          <h3 class="meyve">Meyvələr</h3>
-          <a href="#"  class="meyve1">Daha çox...</a>       
-          <img src="images/meyve&taxil icon.svg" alt="" class="image1">
-          <img src="images/meyve.png" alt="background" class="fruit">
-
-        
-      
-    </div>
-    <div class="home-slider-item2 item">
-      
-        <h3 class="meyve">Tərəvəzlər</h3>
-        <a href="#"  class="meyve1">Daha çox...</a>
-      
-          <img src="images/terevez_icon.svg" alt="" class="image1">
-          <img src="images/terevez.png" alt="background" class="vegetable">
-      
-  
-    </div>
-    <div class="home-slider-item3 item">
-        <h3 class="meyve">Taxıl</h3>
-        <a href="#"  class="meyve1">Daha çox...</a>
-      
-          <img src="images/meyve&taxil icon.svg" alt="" class="image1">
-          <img src="images/taxil.png" alt="background" class="crop">
-
-   
-    </div>
-   
-    
-</div>  
-     
-  <!--Biz Kimik Body Top Part-->
-
-
-<section class="body-top-part">
-
-<div class="body-top-left"> 
-  <img src="images/biz kimik.png" alt=" ">
-
-</div>
-
-<div class="body-top-right">
-  <h5 class="body-top-text">Biz Kimik?</h5>
-  <img src="images/zencir-yarpaq.svg" alt="" class="yarpaq">
-  <img src="images/biz kimik background.png" alt="" class="background-image-body">
-  <div class="body-pdiv">
-  <p class="body-p">
-    
-    Əslində hər şey illər əvvəl İsmayıllı rayonunda  ailəvi gəzintidə olduğumuz zaman baş verdi. 
-    İsmayıllı rayonunun füsunkar təbiətinin gözəlliyi bizim bir gün burda kənd təsərufatı ilə 
-    məşqul olmaq arzusunu oyatdı. Daha sonra dostlarımızla bu məsələni müzakirə edərək 
-    İsmayıllıda təsəruffat qurmağa qərar verdik
-  </p>
-  <p class="body-p">
-    
-    Böyük uğurlar vaxtında və yerində verilən qərarlarla çox bağlıdır.
-    Elə bizdə ilk səfərdə qərar verdik və başladıq.İllər çox serətli keçdi.
-    Bizdə böyümədə zamanın sürətindən geri qalmadıq.Qısa zaman müddətində əldə
-     etdiyimiz uğurlar və daha sürətlə böyüməyə davam etməyimiz işimizə olan sevginin 
-     göstəricisidir.
-    
-  </p>
-
-  <p class="body-p bodyp">
-     Alma,armud,nektarin,gavalı,gilas və qoz yetişdirməklə qalmadıq,tingçilik və toxumçuluqla məhsul sıramızı genişləndirdik.
-  
-  </p>
-
-  <p class="body-p">
-    qısa zamanda ən son texnoloji yeniliklərlə damla suvarma sistemlərinin qurulması BAĞLARIN layihələndirilməsi,salınması kimi çətin işlərin ödəsindən uğurla gəldik.
-
- </p>
-
- <p class="body-p">
-  2022 ci ildə əsas  hədəfimiz brendimizin "made in AZERBAİJAN" adına layiq ölkə kənarında rəflərdə görünməsidir.
-
-</p>
-
-<p class="body-p">
-  növbəti hədəfləri sizlərlə paylaşmaq arzusuyla.
-</p>
-
-<p class="body-p">
-  hörmətlə
-</p>
-
-<p class="body-p">
-  
-MELADORA kollektivi
-</p>
-
-</div>
-
-
-  
-  <img src="images/yarpaq-big.svg" alt="" class="yarpaq-bottom">
-
-  <div class="organig">
-    <img src="images/organik icon.svg" alt="">
-    <p>Organik</p>
-  </div>
-  <div class="memnuniyyet">
-    <img src="images/memnuniyyet icon.svg" alt="">
-    <p>Məmnuniyyət</p>
-  </div>
-  <div class="lorem">
-    <img src="images/lorem.svg" alt="">
-    <p>Lorem</p>
-  </div>
-  <div class="keyfiyyet">
-    <img src="images/keyfiyyet icon.svg" alt="">
-    <p>Yüksək keyfiyyət</p>
-  </div>
-
-
-
-</div>
-
-</section>  
-
-
- <!--Baglarimiz Body Middle part-->
-
- <section class="garden">
-<div class="row">
-<div class="col-4 garden-left">
-  <h1>01</h1>
-  <h4>BAĞ</h4>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
-    <div class="wrapper">
-      <div class="parent" onclick="">
-        <div class="child bg-one"> </div>
-    </div>
-    <img src="images/biz kimik background.png" alt="" >
-</div>
-</div>
-
-
-<div class="col-4 garden-middle">
-  <h5 >Bağlarımız</h5>
-  <img src="images/zencir-yarpaq.svg" alt="" >
-  <div class="wrapper">
-    <div class="parent" onclick="">
-      <div class="child bg-two"> </div>
-  </div>
-</div>
-
-<h1>02</h1>
-<h4>BAĞ</h4>
-
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-  Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
-
-  <img src="images/middle-bottom.svg" alt="" class="middle-bottom-bg">
-
-  <button >Bağlarımız</button>
-  
-</div>
-
-
-<div class="col-4">
-
-  <div class="row">
-    <div class="col-4 garden-right">
-      <h1>03</h1>
-      <h4>BAĞ</h4>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
-        <div class="wrapper">
-          <div class="parent" onclick="">
-            <div class="child bg-three"> </div>
+            <a href=""><i class="fa-brands fa-facebook-f "></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in "></i></a>
+            <a href=""><i class="fa-brands fa-twitter "></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube "></i></a>
         </div>
     </div>
-    </div>
-</div>
 
 
-
- </section>
-
-
- <!--Məhsullarımız Body Footer part-->
-
- <section class="body-mehsul">
-
-   <div class="body-mehsul-top">
-  <h5 >Məhsullarımız</h5>
-  <img src="images/zencir-yarpaq.svg" alt="" class="mehsul-img2">
+    <section class="banner"></section>
 
 
-  <nav>
-   
-   
-      <a href="">Hamısı</a>
-      <a href="">Meyvələr</a>
-      <a href="">Tərəvəzlər</a>
-      <a href="">Taxıllar</a>
-      <a href="">Digər</a>
-      
-    </ul>
-  </nav>
-   </div>
-
-   <!--Cards-fruits-->
-
-<div class="row row-margin-div">
-<div class="col-3 ">
-
-  <div class="mehsul-card mehsul-card-margin">
-    <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-    <a href=""><img src="images/alma.png" alt="" class="ms-3"></a>
-
-    <button class="mehsul-card-top">
-      <p>Alma <br> <span>5₼</span></p>
-      
-    </button>
-   </div>
-
- 
-</div>
-
-<div class="col-3 ">
-
-  <div class="mehsul-card">
-    <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-    <a href=""><img src="images/gavali.png" alt="" class="ms-3"></a>
-
-    <button class="mehsul-card-top">
-      <p>Gavalı <br> <span>5₼</span></p>
-      
-    </button>
-   </div>
-
- 
-</div>
-
-<div class="col-3 ">
-
-  <div class="mehsul-card">
-    <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-   <a href=""> <img src="images/armud.png" alt="" class="ms-3"></a>
-
-    <button class="mehsul-card-top">
-      <p>Armud <br> <span>5₼</span></p>
-      
-    </button>
-   </div>
-
- 
-</div>
-
-<div class="col-3 ">
-
-  <div class="mehsul-card">
-    <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-    <a href=""><img src="images/gilas.png" alt="" class="ms-3"></a>
-
-    <button class="mehsul-card-top">
-      <p>Gilas <br> <span>5₼</span></p>
-      
-    </button>
-   </div>
-
- 
-</div>
-
-</div>
-
-<!--Second row-->
-
-<div class="row row-margin-div">
-  <div class="col-3 ">
-  
-    <div class="mehsul-card mehsul-card-margin">
-      <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-     <a href=""> <img src="images/qoz.png" alt="" class="ms-3"></a>
-  
-      <button class="mehsul-card-top">
-        <p>Qoz <br> <span>5₼</span></p>
-        
-      </button>
-     </div>
-  
-   
-  </div>
-  
-  <div class="col-3 ">
-  
-    <div class="mehsul-card">
-      <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-      <a href=""><img src="images/saftali.png" alt="" class="ms-3"></a>
-  
-      <button class="mehsul-card-top">
-        <p>Şaftalı <br> <span>5₼</span></p>
-        
-      </button>
-     </div>
-  
-   
-  </div>
-  
-  <div class="col-3 ">
-  
-    <div class="mehsul-card">
-      <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-     <a href=""> <img src="images/taxil mehsul.png" alt="" class="ms-3"></a>
-  
-      <button class="mehsul-card-top">
-        <p>Taxıl <br> <span>5₼</span></p>
-        
-      </button>
-     </div>
-  
-   
-  </div>
-  
-  <div class="col-3 ">
-  
-    <div class="mehsul-card">
-      <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-      <a href=""><img src="images/portagal.png" alt="" class="ms-3"></a>
-  
-      <button class="mehsul-card-top">
-        <p>Portağal <br> <span>5₼</span></p>
-        
-      </button>
-     </div>
-  
-   
-  </div>
-  
-  </div>
-
-<!--Third row-->
+    <!--Section 1/ top bottom slides-->
 
 
-<div class="row row-margin-div">
-  <div class="col-3 ">
-  
-    <div class="mehsul-card mehsul-card-margin">
-      <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-      <a href=""><img src="images/ting.png" alt="" class="ms-3"></a>
-  
-      <button class="mehsul-card-top">
-        <p>Müxtəlif Tinglər <br> <span>5₼</span></p>
-        
-      </button>
-     </div>
-  
-   
-  </div>
-  
-  <div class="col-3 ">
-  
-    <div class="mehsul-card">
-      <img src="images/yarpaq.svg" alt="" class="hidden-icon">
-      <a href=""><img src="images/Tomato-PNG-Free-File.png" alt="" class="ms-3"></a>
-  
-      <button class="mehsul-card-top">
-        <p>Pomidor <br> <span>5₼</span></p>
-        
-      </button>
-     </div>
-  
-   
-  </div>
+    <div class="container justify-content-center top-slider ">
+        <div class="owl-slider w-100  ">
+            <div id="carousel" class="owl-carousel">
+                <div class="item item1">
+                    <h3 class="meyve">Meyvələr</h3>
+                    <a href="#" class="meyve1">Daha çox...</a>
+                    <img src="images/meyve&taxil icon.svg" alt="">
+                    <img src="images/meyve.png" alt="" class="fruit img-fluid">
 
- </section>
+                </div>
 
- <!--Bloqlar-->
-<section class="body-blog">
+                <div class="item item2">
+                    <h3 class="meyve">Tərəvəzlər</h3>
+                    <a href="#" class="meyve1">Daha çox...</a>
+                    <img src="images/terevez_icon.svg" alt="">
+                    <img src="images/terevez.png" alt="" class="vegetable img-fluid">
 
-  
-  <div class="body-blog-top">
-    <h5 class="blog-h5">Bloglar</h5>
-    <img src="images/zencir-yarpaq.svg" alt="" >
-  </div>
+                </div>
 
-  <!--Blog sliders-->
+                <div class="item item3">
+                    <h3 class="meyve">Taxıl</h3>
+                    <a href="#" class="meyve1">Daha çox...</a>
+                    <img src="images/meyve&taxil icon.svg" alt="">
+                    <img src="images/taxil.png" alt="" class="crop img-fluid">
+
+                </div>
 
 
+            </div>
+            <div class="owl-dots text-center">
+                <div class="owl-dot active"><span></span></div>
+                <div class="owl-dot"><span></span></div>
+                <div class="owl-dot"><span></span></div>
+            </div>
 
-  <div class="blog-slider owl-carousel owl-theme">
-    <div class="blog-slider-item1 item ">
-  
-    
-      <div class="blog1">
-        
-        <div class="wrapper">
-          <div class="parent blog-parent" onclick="">
-            <div class="child blog-bg-one blog-child"> </div>
-            
         </div>
+    </div>
+
+    <!--Section 1/ top bottom slides End-->
+
+    <!--Biz Kimik Body Top Part-->
+
+
+    <section class="body-top-part mt-5">
+        <div class="row gx-0">
+
+
+            <div class="body-top-left col-lg-4 col-md-12">
+                <img src="images/biz kimik.png" alt=" " class=" w-100  h-100">
+
+            </div>
+
+
+
+
+            <div class="body-top-right mt-5 col-lg-8 col-md-12  text-center h-100  ">
+                <h5 class="body-top-text text-center">Biz Kimik?</h5>
+                <img src="images/zencir-yarpaq.svg" alt="" class="yarpaq">
+
+
+
+
+                <div>
+
+                    <p class="body-p ">
+
+                        Əslində hər şey illər əvvəl İsmayıllı rayonunda ailəvi gəzintidə olduğumuz zaman baş verdi.
+                        İsmayıllı rayonunun füsunkar təbiətinin gözəlliyi bizim bir gün burda kənd təsərufatı ilə
+                        məşqul olmaq arzusunu oyatdı. Daha sonra dostlarımızla bu məsələni müzakirə edərək
+                        İsmayıllıda təsəruffat qurmağa qərar verdik
+                    </p>
+                    <p class="body-p">
+
+                        Böyük uğurlar vaxtında və yerində verilən qərarlarla çox bağlıdır.
+                        Elə bizdə ilk səfərdə qərar verdik və başladıq.İllər çox serətli keçdi.
+                        Bizdə böyümədə zamanın sürətindən geri qalmadıq.Qısa zaman müddətində əldə
+                        etdiyimiz uğurlar və daha sürətlə böyüməyə davam etməyimiz işimizə olan sevginin
+                        göstəricisidir.
+
+                    </p>
+
+
+                    <p class="body-p ">
+                        Alma,armud,nektarin,gavalı,gilas və qoz yetişdirməklə qalmadıq,tingçilik və toxumçuluqla məhsul
+                        sıramızı genişləndirdik.
+
+                    </p>
+
+                    <p class="body-p">
+                        qısa zamanda ən son texnoloji yeniliklərlə damla suvarma sistemlərinin qurulması BAĞLARIN
+                        layihələndirilməsi,salınması kimi çətin işlərin ödəsindən uğurla gəldik.
+
+                    </p>
+
+                    <p class="body-p">
+                        2022 ci ildə əsas hədəfimiz brendimizin "made in AZERBAİJAN" adına layiq ölkə kənarında rəflərdə
+                        görünməsidir.
+
+                    </p>
+
+                    <p class="body-p">
+                        növbəti hədəfləri sizlərlə paylaşmaq arzusuyla.
+                    </p>
+
+                    <p class="body-p">
+                        hörmətlə
+                    </p>
+
+                    <p class="body-p">
+
+                        MELADORA kollektivi
+                    </p>
+
+                </div>
+
+                <div class="text-center mb-4">
+                    <img src="images/yarpaq-big.svg" alt="" class="yarpaq-big">
+                </div>
+
+                <div class="organig d-lg-inline-block d-md-inline-block d-sm-block ms-5 ">
+                    <img src="images/organik icon.svg" alt="">
+                    <p>Organik</p>
+                </div>
+                <div class="memnuniyyet d-lg-inline-block d-md-inline-block d-sm-block ms-5">
+                    <img src="images/memnuniyyet icon.svg" alt="">
+                    <p>Məmnuniyyət</p>
+                </div>
+                <div class="lorem d-lg-inline-block d-md-inline-block d-sm-block ms-5">
+                    <img src="images/lorem.svg" alt="">
+                    <p>Lorem</p>
+                </div>
+                <div class="keyfiyyet d-lg-inline-block d-md-inline-block d-sm-block ms-5">
+                    <img src="images/keyfiyyet icon.svg" alt="">
+                    <p>Yüksək keyfiyyət</p>
+                </div>
+
+
+
+
+            </div>
+
         </div>
-       
-        <h6>Lorem İpsem Doler Sit Amet</h6>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
-      
-    </div>
-        
-      
-    </div>
+    </section>
 
-    <div class="blog-slider-item2 item">
-      
-          
-      <div class="blog1">
-        
-        <div class="wrapper">
-          <div class="parent blog-parent" onclick="">
-            <div class="child blog-bg-two blog-child"> </div>
-            
+    <!--Biz Kimik Body Top Part End-->
+
+    <!--Baglarimiz Body Middle part-->
+
+    <section class=" mt-5 text-center">
+        <div class="container">
+            <div class="text-center garden-heading">
+                <h5>Bağlarımız</h5>
+                <img src="images/zencir-yarpaq.svg" alt="" >
+            </div>
+            <div class="row gx-0 ">
+                <div class="col-lg-4 col-md-6 col-sm-12 garden-left">
+                    <h1>01</h1>
+                    <h4>BAĞ</h4>
+                    <p class="mt-5 ms-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                    <div class="wrapper">
+                        <div class="parent" onclick="">
+                            <div class="child bg-one"> </div>
+                        </div>
+                        <img src="images/biz kimik background.png" alt="" class="img-fluid" >
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12 garden-middle">
+
+
+                    <div class="wrapper">
+                        <div class="parent" onclick="">
+                            <div class="child bg-two"> </div>
+                        </div>
+                    </div>
+
+                    <h1>02</h1>
+                    <h4>BAĞ</h4>
+
+                    <p class="ms-4 mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                    <button class="ps-5 pe-5 pt-3 pb-3">Bağlarımız</button>
+                    <img src="images/middle-bottom.svg" alt="" class="middle-bottom-bg img-fluid">
+
+
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12 garden-right">
+
+                    <h1>03</h1>
+                    <h4>BAĞ</h4>
+                    <p class="ms-4 mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                    <div class="wrapper">
+                        <div class="parent" onclick="">
+                            <div class="child bg-three"> </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+    <!--Baglarimiz Body Middle part End-->
+    <!--Məhsullarımız Body Footer part-->
+
+    <section class="body-mehsul mt-5">
+        <div class="container">
+            <div class="body-mehsul-top text-center">
+                <h5>Məhsullarımız</h5>
+                <img src="images/zencir-yarpaq.svg" alt="" class="mt-2">
+
+
+                <nav class="mt-4">
+
+
+                    <a href="">Hamısı</a>
+                    <a href="">Meyvələr</a>
+                    <a href="">Tərəvəzlər</a>
+                    <a href="">Taxıllar</a>
+                    <a href="">Digər</a>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <!--Cards-fruits-->
+
+
+            <div class="row  gx-0">
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""><img src="images/alma.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Alma <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6  ">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""><img src="images/gavali.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Gavalı <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6  ">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""> <img src="images/armud.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Armud <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6  ">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""><img src="images/gilas.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Gilas <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!--Second row-->
+
+            <div class="row ">
+                <div class="col-lg-3 col-md-6  ">
+
+                    <div class="mehsul-card ">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""> <img src="images/qoz.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Qoz <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""><img src="images/saftali.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Şaftalı <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6  ">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""> <img src="images/taxil mehsul.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Taxıl <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""><img src="images/portagal.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Portağal <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!--Third row-->
+
+
+            <div class="row ">
+                <div class="col-lg-3 col-md-6  ">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""><img src="images/ting.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Müxtəlif Tinglər <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+
+                    <div class="mehsul-card">
+                        <img src="images/yarpaq.svg" alt="" class="hidden-icon">
+                        <a href=""><img src="images/Tomato-PNG-Free-File.png" alt="" ></a>
+
+                        <button class="mehsul-card-top">
+                          <p>Pomidor <br> <span>5₼</span></p>
+
+                      </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+    </section>
+    <!--Məhsullarımız Body Footer part End-->
+
+    <!--Bloglar-->
+    <section class="mt-5">
+
+
+        <div class="container ">
+            <div class="blog-top ">
+                <h5>Bloglar</h5>
+                <div class="text-center">
+                    <img src="images/zencir-yarpaq.svg" alt="" class="mt-2">
+                </div>
+
+                <div class="owl-slider mt-4 w-100">
+                    <div id="blog-slider" class="owl-carousel">
+                        <div class="item">
+                            <div class="blog1">
+
+                                <div class="wrapper ">
+                                    <div class="parent blog-parent" onclick="">
+                                        <div class="child blog-bg-one blog-child "> </div>
+
+                                    </div>
+                                </div>
+
+                                <h6>Lorem İpsem Doler Sit Amet</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="item">
+
+                            <div class="blog1">
+
+                                <div class="wrapper">
+                                    <div class="parent blog-parent" onclick="">
+                                        <div class="child blog-bg-two blog-child"> </div>
+
+                                    </div>
+                                </div>
+
+                                <h6>Lorem İpsem Doler Sit Amet</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+                            <div class="blog1">
+
+                                <div class="wrapper">
+                                    <div class="parent blog-parent" onclick="">
+                                        <div class="child blog-bg-three blog-child"> </div>
+
+                                    </div>
+                                </div>
+
+                                <h6>Lorem İpsem Doler Sit Amet</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="ps-5 pe-5 pt-3 pb-3 blog-button  mt-4">Bloglar</button>
+                </div>
+            </div>
+
+    </section>
+
+    <!--Bloglar End-->
+    <!--Footer-->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="primary-footer">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 text-lg-start text-md-center text-sm-center pb-4 text-center">
+                        <img src="images/logo footer.png" alt="" class="footer-margin-top-img">
+                    </div>
+                    <div class="col-lg-3 col-md-12 text-lg-start text-md-center text-sm-center text-center">
+                        <h6 class="footer-margin-top ">Menyular</h6>
+                        <ul class="footer-list">
+                            <li><a href="index.html">Biz kimik?</a> </li>
+                            <li> <a href="garden.html">Bağlarımız</a></li>
+                            <li> <a href="products.html">Məhsullarımız</a></li>
+                            <li><a href="service.html">Xidmətlərimiz</a></li>
+                            <li><a href="social-responsibility.html">Sosial Məsuliyyət</a></li>
+                            <li> <a href="contact.html">Əlaqə</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 text-lg-start text-md-center text-sm-center text-center">
+                        <h6 class="footer-margin-top">Faydalı Linklər</h6>
+                        <ul class="footer-list">
+                            <li><a href="">Tez-tez soruşulanlar</a> </li>
+                            <li> <a href="">Karyera</a></li>
+                            <li> <a href="">Xidmət şəbəkəsi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 text-lg-start text-md-center text-sm-center text-center">
+                        <h6 class="footer-margin-top">FAQ</h6>
+                        <ul class="footer-list">
+                            <li><a href="">Təhlükəsizlik</a> </li>
+                            <li> <a href="">Şərtlər və qaydalar</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="secondary-footer ">
+
+                <p class="copyright-p1">Copyright 2022 - <a href="">meladora.com</a></p>
+
+
+
+                <p class="copyright-p2 float-end ">Powered by- <a href="">Inci-MeetUp</a></p>
+
+
+            </div>
         </div>
-        </div>
-       
-        <h6>Lorem İpsem Doler Sit Amet</h6>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
-      
-    </div>
-      
-  
-    </div>
-
-    <div class="blog-slider-item3 item">
-          
-      <div class="blog1">
-        
-        <div class="wrapper">
-          <div class="parent blog-parent" onclick="">
-            <div class="child blog-bg-three blog-child"> </div>
-            
-        </div>
-        </div>
-       
-        <h6>Lorem İpsem Doler Sit Amet</h6>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
-      
-    </div>
-  
-   
-    </div>
-   
-    
-  </div> 
-    
-  
-
-</section>
-
- <!--Footer-->
- <section class="footer-bg">
-<div class="footer-div">
-  <div class="row">
-    <div class="col-3">
-      <img src="images/logo footer.png" alt="" class="footer-margin-top-img">
-    </div>
-    <div class="col-3">
-      <h6 class="footer-margin-top">Menyular</h6>
-      <ul class="footer-list">
-        <li><a href="">Biz kimik?</a> </li>
-        <li> <a href="">Bağlarımız</a></li>
-        <li> <a href="">Məhsullarımız</a></li>
-        <li><a href="">Xidmətlərimiz</a></li>
-        <li><a href="">Sosial Məsuliyyət</a></li>
-        <li> <a href="">Əlaqə</a></li> 
-      </ul>
-    </div>
-    <div class="col-3">
-      <h6 class="footer-margin-top">Faydalı Linklər</h6>
-      <ul class="footer-list">
-        <li><a href="">Tez-tez soruşulanlar</a> </li>
-        <li> <a href="">Karyera</a></li>
-        <li> <a href="">Xidmət şəbəkəsi</a></li> 
-      </ul>
-    </div>
-    <div class="col-3">
-      <h6 class="footer-margin-top">FAQ</h6>
-      <ul class="footer-list">
-        <li><a href="">Təhlükəsizlik</a> </li>
-        <li> <a href="">Şərtlər və qaydalar</a></li>
-    
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="copyright">
-  <p class="copyright-p1">Copyright 2022 - <a href="">meladora.com</a></p>
-  <p class="copyright-p2">Powered by- <a href="">Inci-MeetUp-Proton.az</a></p>
-</div>
-
- </section>
+    </footer>
 
 
 
@@ -616,16 +705,14 @@ MELADORA kollektivi
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="app.js"></script>
 
 
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="owl.carousel.min.js"></script>
-<script src="app.js"></script>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

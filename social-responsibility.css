@@ -1,0 +1,705 @@
+
+@import
+url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #CCCCCC;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(255, 191, 0);
+}
+
+
+
+
+/*Scroll button*/
+
+#button {
+display: inline-block;
+background-color: #FF9800;
+width: 50px;
+height: 50px;
+text-align: center;
+border-radius: 4px;
+position: fixed;
+bottom: 30px;
+right: 30px;
+transition: background-color .3s,
+opacity .5s, visibility .5s;
+opacity: 0;
+visibility: hidden;
+z-index: 1000;
+text-decoration: none;
+}
+#button::after {
+content: "\f106";
+font-family: FontAwesome;
+font-weight: normal;
+font-style: normal;
+font-size: 1em;
+line-height: 50px;
+color: #fff;
+
+}
+
+
+#button.show {
+opacity: 1;
+visibility: visible;
+}
+
+
+@media (min-width: 500px) {
+
+#button {
+margin: 30px;
+}
+}
+
+/*Scroll button End*/
+
+/*Banner- background image*/
+
+
+.banner{
+position: relative;
+width: 100%;
+min-height: 630px;
+background-image: url("images/biz-kimik/top-backgroundimg.jpg");
+background-size: cover;
+
+
+}
+
+
+/*Banner- background image End*/
+
+/*Header-Primary*/
+
+
+
+header{
+position: absolute;
+width: 100%;
+transition: 0.6s;
+z-index: 800;
+background-color: #fff;
+}
+
+header .container{
+display: grid;
+}
+
+.primary-header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 12px 0;
+border-bottom: 1px solid #C7C7C7;
+
+}
+
+/*top left-div*/
+
+.primary-left{
+float:left;
+}
+
+
+.tel-number{
+text-decoration: none;
+color: #000;
+font-size: 16px;
+font-family: 'Cormorant Garamond', serif;
+font-weight: 600px;
+}
+
+
+.tel-number:hover{
+color:#91B40D;
+}
+
+.tel-number:hover>.faa-ring{
+
+-webkit-animation:
+ring 2s ease infinite;
+animation: ring 2s ease infinite;
+transform-origin-x: 50%;
+transform-origin-y: 0px;
+transform-origin-z: initial
+}
+
+.faa-ring{color: #91B40D;
+padding-right: 5px;}
+
+@-webkit-keyframes ring{0%{-webkit-transform: rotate(-15deg);
+transform: rotate(-15deg)}2%{-webkit-transform: rotate(15deg);
+transform: rotate(15deg)}4%{-webkit-transform: rotate(-18deg);
+transform: rotate(-18deg)}6%{-webkit-transform: rotate(18deg);
+transform: rotate(18deg)}8%{-webkit-transform: rotate(-22deg);
+transform: rotate(-22deg)}10%{-webkit-transform: rotate(22deg);
+transform: rotate(22deg)}12%{-webkit-transform: rotate(-18deg);
+transform: rotate(-18deg)}14%{-webkit-transform: rotate(18deg);
+transform: rotate(18deg)}16%{-webkit-transform: rotate(-12deg);
+transform: rotate(-12deg)}18%{-webkit-transform: rotate(12deg);
+transform: rotate(12deg)}20%{-webkit-transform: rotate(0deg);
+transform: rotate(0deg)}}
+
+/*top left-div end*/
+
+/*top right-div */
+.primary-right{
+float:right;
+}
+
+
+
+.social-media, .lang{
+display: inline-block;
+}
+
+.lang-link{
+text-decoration: none!important;
+color: #000!important;
+font-size: 18px!important;
+font-family: 'Cormorant Garamond', serif!important;
+font-weight: 600px;
+
+
+
+}
+
+.lang-menu{
+min-width:20px!important;
+padding:0!important;
+border-radius: none!important;
+align-items: center!important;
+background-color: #1A5221!important;
+
+
+}
+
+.lang-item{
+font-size: 16px!important;
+font-family: 'Cormorant Garamond', serif!important;
+color: #fff!important;
+padding-left: 10px!important;
+padding-right: 10px!important;
+font-weight: bold!important;
+}
+
+.lang-divider{
+min-width: 5px!important;
+display: flex!important;
+justify-content: center!important;
+background-color: black!important;
+}
+
+
+
+.social-media-icons{
+color: #000;
+font-size: 18px;
+padding-left: 10px;
+}
+
+.social-media-icons:hover{
+color: #91B40D;
+}
+
+/*top right-div end */
+
+/*Header-Primary End*/
+
+/*Header-Secondary*/
+@media only screen and (max-width: 1000px) {
+
+.btn-searchtop{
+display:inline-block;
+}
+}
+
+
+.secondary-header .wrapper{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 12px 0;
+}
+
+
+.active {
+background-color:#1A5221;
+border-bottom: 1px solid #FFBF00;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+
+
+}
+
+.active2{
+    fill:#fff!important;
+    color:#fff!important;
+    
+}
+
+
+.hidden-logo{
+visibility: hidden;
+
+}
+
+.scroll-logo{
+background-image: url("images/logo footer.png");
+background-repeat: no-repeat;
+background-size: 130px 50px;
+background-position: 3px;
+}
+
+
+
+.main-logo{
+margin-top: 15px;
+float:left;
+display: inline-block;
+}
+
+.secondary-header nav{
+float:right;
+}
+
+.secondary-header ul{
+
+list-style-type: none;
+
+}
+
+.secondary-header ul li{
+
+float:left;
+
+}
+
+
+
+.secondary-header ul li a:hover{
+color:#91B40D;
+}
+
+.secondary-header ul li:hover::after{
+content: url(images/yarpaq.svg);
+display: block;
+position: absolute;
+margin-top: -50px;
+
+}
+
+.underline-hover:after{
+background: none repeat scroll 0 0 transparent;
+bottom: 0;
+content: "";
+display: block;
+height: 2px;
+left: 50%;
+position: absolute;
+background: #91B40D;
+transition: width 0.3s ease 0s, left 0.3s ease 0s;
+width: 0;
+}
+
+.underline-hover:hover:after{
+width: 100%;
+left: 0;
+}
+
+.secondary-header ul li a{
+position: relative;
+margin: 0 15px;
+text-decoration: none;
+color: #000;
+transition: 0.6s;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Cormorant Garamond', serif;
+font-weight: normal;
+
+}
+
+
+
+/*search-overlay*/
+
+.btn-search{
+margin-top: -5px;
+background-color: transparent;
+border-style: none;
+
+}
+
+.btn-search svg{
+    fill:#000;
+}
+
+
+.btn-searchtop{
+margin-top: -5px;
+background-color: transparent;
+border-style: none;
+display:none;
+}
+
+.overlay {
+height: 100%;
+width: 100%;
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9);
+
+
+
+}
+
+.overlay-content {
+position: relative;
+top: 46%;
+width: 80%;
+text-align: center;
+margin-top: 30px;
+margin: auto;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 30px;
+cursor: pointer;
+color: white;
+}
+
+
+.overlay input[type=text] {
+
+font-size: 17px;
+
+width:700px;
+height: 65px;
+border-radius: none;
+border: 2px solid #fff;
+background-color: transparent;
+color:#fff;
+}
+
+
+
+.overlay button {
+
+width: 200px;
+height: 65px;
+font-family: 'Cormorant Garamond', serif;
+font-size: 20px;
+font-weight: bold;
+background: #fff;
+border: 2px solid #fff;
+cursor: pointer;
+}
+
+.overlay button:hover {
+background-color: #1A5221;
+color: #fff;
+}
+
+::placeholder {
+color: #fff;
+font-family: 'Cormorant Garamond', serif;
+padding-left: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+
+/*search-overlay end*/
+
+
+/*hamburger menu & offcanvas*/
+
+
+.hamburger{
+    text-decoration: none!important;
+    color: #fff;   
+    float:right;
+    font-size: 30px;
+   
+    
+    
+    
+}
+
+.hamburger-menu:hover{
+    color:#91B40D;
+}
+
+.offcanvas-top{
+    width:75%!important;
+    height:100%!important;
+       
+   }
+   
+   .offcanvas-top .offcanvas-header{
+       border-bottom: 1px solid #1A5221!important;
+   }
+   
+   .offcanvas-top .btn-close{
+       font-size: 30px!important;
+      color:black!important;
+      font-weight: bold!important;
+      padding: 0 20px!important;
+   
+   }
+   
+   .offcanvas-list ul{
+       list-style: none;
+       text-align: center;
+       
+   }
+   
+   .offcanvas-list ul li{
+       padding: 10px;
+   }
+   
+   .offcanvas-list ul li a:hover{   
+       color:#91B40D;  
+   
+   }
+   
+   .offcanvas-list ul li a:hover:before{
+       content:url("images/yarpaq.svg");
+      
+   }
+   
+   
+   .underline-hover1 {
+     display: inline-block;
+     position: relative;
+     
+   }
+   
+   .underline-hover1:after {
+     content: '';
+     position: absolute;
+     width: 80%;
+     transform: scaleX(0);
+     height: 2px;
+     bottom: 0;
+     left: 22%;
+     background-color: #91B40D;
+     transform-origin: center;
+     transition: transform 0.25s ease-out;
+   }
+   
+   .underline-hover1:hover:after {
+     transform: scaleX(1);
+     transform-origin: center;
+   }
+   
+    
+   
+   
+   
+   .offcanvas-body{
+       background-image: url("images/meyve&taxil icon.svg");
+      background-position: center;
+       background-repeat: no-repeat;
+       
+       
+      
+   }
+      
+   
+   .offcanvas-list ul li a{
+       
+       
+       text-decoration: none;
+       color: #000;
+       transition: 0.6s;
+       text-decoration: none;
+       font-size: 20px;
+       font-family: 'Cormorant Garamond', serif;
+       font-weight: normal;
+    
+   }
+   
+   .offcanvas-footer{
+       border-top:1px solid #1A5221!important;
+       padding: 10px!important;
+       text-align: center;
+       
+   }
+   .offcanvas-footer a{
+       padding-left: 5px;
+      
+   
+   }
+   
+   
+   .offcanvas-footer .fa-brands{
+       padding:5px;
+       background-color: #FFBF00;
+       text-decoration: none;
+       color: #fff;
+     
+   }
+
+/*hamburger menu & offcanvas End*/
+
+.green-img{
+    margin-top: -8%;
+    
+}
+/*garden*/
+
+
+.garden-margin{
+    background: url("images/biz-kimik/logo-pattern.svg") no-repeat left top;
+    
+}
+
+/*responsibility*/
+.responsibility{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 43px;
+   text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 10px;
+    text-indent: 5%;
+    padding-bottom: 5%;
+    padding-top:10%;
+}
+
+.garden-margin{
+    margin-top:50px;
+   
+}
+
+
+
+.garden-margin p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #7C7A7A;    
+    text-align: center;
+      
+}
+
+
+/*Footer*/
+
+.main-footer{
+    padding-top: 300px;
+    background: #f3f3f3;
+   
+ 
+  
+}
+
+.footer-curve{
+   
+    width:100%;
+    height: 100%;
+}
+
+
+.secondary-footer{
+
+border-top: 1px solid #000;
+
+}
+
+.footer-margin-top{
+
+color: #000;
+font-family: 'Cormorant Garamond', serif;
+font-size: 20px;
+font-weight: bold;
+line-height: 27px;
+padding-bottom: 10px;
+}
+
+.footer-list{
+padding-left: 0!important;
+list-style-type: none;
+
+}
+
+.footer-list li{
+padding-bottom: 10px;
+
+}
+
+.footer-list li a{
+
+color: #000;
+font-family: 'Cormorant Garamond', serif;
+font-size: 20px;
+line-height: 27px;
+text-decoration: none;
+
+}
+
+
+.footer-list li a:hover{
+color:#ffbf00;
+}
+
+
+
+
+.copyright-p1,.copyright-p2 {
+display: inline-block;
+color:#000;
+font-family: 'Cormorant Garamond', serif;
+font-size: 18px;
+margin-top: 10px;
+
+
+}
+
+
+
+
+
+
+.copyright-p2 a, .copyright-p1 a{
+color: #ffbf00;
+text-decoration: none;
+}
+
+
+
+.copyright-p2 a:hover, .copyright-p1 a:hover{
+color:#ffbf00;
+}

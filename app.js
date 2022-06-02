@@ -10,66 +10,122 @@ function closeSearch() {
 
 
 
+    jQuery("#carousel").owlCarousel({
+      autoplay: true,
+      loop:true,
+      margin: 20,
+      responsiveClass: true,
+      nav: false,
+      dots:true,
+      items:3,
+     
+      
+      responsive: {
+        0: {
+          items: 1
+        },
 
+        768: {
+          items: 2
+        },
 
-
-
-
-
-
-$(function(){
-    $('.home-slider').owlCarousel({
-    margin:57,
-    nav: true,
-        dots:true,
-        items:3,
-    autoplay:true,
-    loop:true,
+        1000: {
+          items: 2
+        },
     
+        1024: {
+          items: 3
+        },
     
-    
-    
-    
+        1366: {
+          items: 3
+        }
+      }
     });
+
+
+  
+
+
+    jQuery("#blog-slider").owlCarousel({
+      autoplay: true,
+      loop:true,
+      margin: 20,
+      responsiveClass: true,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+
+        768: {
+          items: 2
+        },
+
+        1000: {
+          items: 2
+        },
     
+        1024: {
+          items: 3
+        },
     
+        1366: {
+          items: 3
+        }
+      }
+    });
+
+    jQuery("#blog-slider2").owlCarousel({
+      autoplay: true,
+      loop:true,
+      margin: 20,
+      responsiveClass: true,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+
+        768: {
+          items: 2
+        },
+
+        1000: {
+          items: 2
+        },
     
+        1024: {
+          items: 3
+        },
     
-    
-    
-    
+        1366: {
+          items: 3
+        }
+      }
     });
 
 
-
-    $(function(){
-        $('.blog-slider').owlCarousel({
-        margin:20,
-        nav: true,
-            dots:true,
-            items:3,
-        autoplay:true,
-        loop:true,
-        
-        
-        
-        
-        
-        });
-        
-    });
         
        
     $(function() {
         $(window).on("scroll", function() {
             if($(window).scrollTop() > 70) {
-                $(".header-secondary").addClass("active");
+                $(".secondary-header").addClass("active");
                 $(".main-logo").addClass("hidden-logo");
+                $(".wrapper-logo").addClass("scroll-logo");
+                $(".underline-hover").addClass("active2");
+                $(".btn-search svg").addClass("active2");
+                
             
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
-               $(".header-secondary").removeClass("active");
+               $(".secondary-header").removeClass("active");
                $(".main-logo").removeClass("hidden-logo");
+               $(".wrapper-logo").removeClass("scroll-logo");
+               $(".underline-hover").removeClass("active2");
+               $(".btn-search svg").removeClass("active2");
+               
             }
         });
     });
